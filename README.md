@@ -159,5 +159,4 @@ Integrate an advanced ML model for product recommendation and category predictio
 ## Notes
 
 - Ensure that both the frontend and backend applications are running simultaneously for full functionality.
-- Test the application thoroughly to ensure all parts are working as expected.
 ```
