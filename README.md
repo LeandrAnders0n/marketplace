@@ -1,28 +1,37 @@
-```markdown
 # Full-Stack Developer Assignment
 
-This project consists of three main parts: frontend development with Vue.js, backend development with Laravel PHP, and machine learning integration for product recommendation and category prediction.
+This project involves three main components: frontend development with Vue.js, backend development with Laravel PHP, and machine learning integration for product recommendation and category prediction.
 
-# Screenshots
-## Login
-(assets/Login.png)
-## Register
-(assets/Register.png)
-## Home
-(assets/Home.png)
-## Search
-(assets/Search.png)
-## Wishlist
-(assets/Wishlist.png)
-## Cart
-(assets/Cart.png)
-## Product Suggestions
-(assets/Recommended.png)
-## Responsive Design
-### Phone(Pixel)
-(assets/Phone.png)
-### Tab(Ipad Air)
-(assets/Ipad.png)
+## Screenshots
+
+### Login
+![Login](assets/Login.png)
+
+### Register
+![Register](assets/Register.png)
+
+### Home
+![Home](assets/Home.png)
+
+### Search
+![Search](assets/Search.png)
+
+### Wishlist
+![Wishlist](assets/Wishlist.png)
+
+### Cart
+![Cart](assets/Cart.png)
+
+### Product Suggestions
+![Product Suggestions](assets/Recommended.png)
+
+### Responsive Design
+
+#### Phone (Pixel)
+![Phone](assets/Phone.png)
+
+#### Tablet (iPad Air)
+![Tablet](assets/Ipad.png)
 
 ## Part 1: Frontend Development (Vue.js)
 
@@ -35,7 +44,7 @@ Create a web application for a product marketplace.
 - Add user authentication (login/register) using JWT tokens.
 - Allow authenticated users to add products to their wishlist.
 - Implement shopping cart functionality with the ability to add/remove products.
-- Use a design system or UI component library (e.g., Vuetify for Vue.js).
+- Use a design system or UI component library (e.g., Vuetify).
 - Ensure the application is fully responsive and adheres to modern UX/UI standards.
 
 ## Part 2: Backend Development (Laravel PHP)
@@ -46,7 +55,7 @@ Develop a comprehensive API to manage the marketplace functionalities.
 ### Requirements
 - Use Laravel to build the backend API.
 - Implement user authentication with JWT tokens.
-- Provide endpoints for product management using JSON for data storage (CRUD operations).
+- Provide endpoints for product management using JSON (CRUD operations).
 - Implement wishlist functionality for authenticated users.
 - Create endpoints for managing the shopping cart (add/remove products, checkout).
 - Implement authentication and authorization.
@@ -58,16 +67,16 @@ Develop a comprehensive API to manage the marketplace functionalities.
 Integrate an advanced ML model for product recommendation and category prediction.
 
 ### Requirements
-- Train or use a pre-trained ML model to recommend products based on user behavior (collaborative filtering or content-based filtering).
-- Train or use a pre-trained ML model to predict the category of a product based on its description.
+- Train or use a pre-trained ML model for product recommendations (collaborative filtering or content-based filtering).
+- Train or use a pre-trained ML model to predict product categories based on descriptions.
 - Create endpoints in Laravel to handle product recommendations and category predictions.
 - Ensure scalability and performance of the ML integration.
 
-## ML Model for Product Recommendation
+### ML Model for Product Recommendation
 
 1. **Model Training**:
-   - Use a pre-trained model or train a model using collaborative filtering or content-based filtering techniques.
-   - Train the model using historical user behavior data.
+   - Use or train a model with collaborative filtering or content-based filtering techniques.
+   - Utilize historical user behavior data for training.
 
 2. **Model Deployment**:
    - Save the trained model and integrate it into the Laravel backend.
@@ -91,7 +100,7 @@ Integrate an advanced ML model for product recommendation and category predictio
 
 1. **Navigate to the frontend directory**:
    ```bash
-   cd frontend
+   cd marketplace-frontend
    ```
 
 2. **Install dependencies**:
@@ -112,7 +121,7 @@ Integrate an advanced ML model for product recommendation and category predictio
 
 1. **Navigate to the backend directory**:
    ```bash
-   cd backend
+   cd marketplace-backend
    ```
 
 2. **Install PHP dependencies**:
@@ -149,5 +158,6 @@ Integrate an advanced ML model for product recommendation and category predictio
 
 ## Notes
 
-- Ensure that both frontend and backend applications are running simultaneously for full functionality.
+- Ensure that both the frontend and backend applications are running simultaneously for full functionality.
 - Test the application thoroughly to ensure all parts are working as expected.
+```
